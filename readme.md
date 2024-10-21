@@ -68,4 +68,4 @@ sudo a2dissite 000-default # desactivar pagina default para que no sobreeescriba
 sudo systemctl reload apache2 # recargar configuracion apache
 ```
 3. Comprueba que puedes acceder a wordpress. 
-![](wordpress.png)
+![](img/wordpress.png)
