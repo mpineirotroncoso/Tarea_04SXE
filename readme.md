@@ -22,6 +22,7 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php # agregar fichero d
 Ahora probamos accediendo a la ip de nuestro servidor a traves de un navegador accediendo a la pagina `/info.php`
 
 ![](img/php.png)
+
 2. Utiliza esta [guía](https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview) para instalar wordpress en el contenedor.
 Instalar dependencias
 ```sh
