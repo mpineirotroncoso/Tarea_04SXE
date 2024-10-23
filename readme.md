@@ -71,3 +71,32 @@ sudo systemctl reload apache2 # recargar configuracion apache
 ```
 3. Comprueba que puedes acceder a wordpress. 
 ![](img/wordpress.png)
+
+#### OPCIONAL: Instala phpmyadmin en el contenedor siguiendo esta guía. Comprueba que puedes acceder.
+```sh
+sudo apt install phpmyadmin # instalar phpmyadmin
+```
+Tendremos que introducir la informacion de nuestra base de datos para completar la instalacion.
+Cuando termine la instalacion podemos acceder a la interfaz web en `https://ip/phpmyadmin` y iniciar sesion con nuestro usuario de la base
+
+![](img/php2.png)
+
+Una vez que estemos dento del phpmyadmin tenemos que crear una base de datos para el wordpress
+
+![](img/php3.png)
+
+Y luego en el wordpress tendremos que decir que utilize esa base de datos
+
+![](img/wordpress2.png)
+
+Despues introducimos algunos datos del sitio y nuestros para poder acceder despues
+
+![](img/wordpress3.png
+
+Configuracion finalizada
+
+![](img/wordpress4.png)
+
+Ahora deberia de enviarnos a la pantalla de inicio de sesion y podremos entrar con las credenciales que introducimos antes
+
+![](img/wordpress5.png)
