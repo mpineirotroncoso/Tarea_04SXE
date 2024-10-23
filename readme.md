@@ -91,7 +91,7 @@ Y luego en el wordpress tendremos que decir que utilize esa base de datos
 
 Despues introducimos algunos datos del sitio y nuestros para poder acceder despues
 
-![](img/wordpress3.png
+![](img/wordpress3.png)
 
 Configuracion finalizada
 
